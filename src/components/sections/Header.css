@@ -2,9 +2,14 @@ img {
   width: 40rem;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media screen and (max-width: 768px) {
+  .image1 {
+    width: 360px;
+    height: auto;
+    overflow: hidden;
+  }
   img {
-    width: 2px;
+    width: 50rem;
     height: auto;
     overflow: hidden;
   }

@@ -27,11 +27,7 @@ const Header = () => (
         <Container>
           <Grid>
             <Art>
-              <img
-                style={{ width: '50rem' }}
-                className="image1"
-                src="https://i.imgur.com/tYmvRjT.png"
-              />
+              <img className="image1" src="https://i.imgur.com/tYmvRjT.png" />
             </Art>
           </Grid>
         </Container>
