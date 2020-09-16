@@ -52,22 +52,15 @@ const Footer = () => (
         <FooterWrapper>
           <StyledContainer>
             <Copyright>
-              <h2>Absurd</h2>
+              <h2>Contact Person</h2>
               <span>
-                Illustrations by
+                Irfaan Rifqi Fauzaan
                 {` `}
-                <ExternalLink href="https://twitter.com/diana_valeanu">
-                  @diana_valeanu
+                <ExternalLink href="https://api.whatsapp.com/send?phone=+6285795752481">
+                  +62 857-9575-2481
                 </ExternalLink>
               </span>
             </Copyright>
-            <SocialIcons>
-              {SOCIAL.map(({ icon, link }) => (
-                <ExternalLink key={link} href={link}>
-                  <img src={icon} alt="link" />
-                </ExternalLink>
-              ))}
-            </SocialIcons>
           </StyledContainer>
         </FooterWrapper>
       </React.Fragment>
@@ -97,11 +90,11 @@ const FooterWrapper = styled.footer`
 const Copyright = styled.div`
   font-family: ${props => props.theme.font.secondary};
   ${props => props.theme.font_size.small};
-  color: ${props => props.theme.color.black.regular};
+  color: white;
 
   a {
     text-decoration: none;
-    color: inherit;
+    color: white;
   }
 `;
 

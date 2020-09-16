@@ -52,23 +52,13 @@ const About = () => (
             </Art>
             <div>
               <h2>The Travelers Framework</h2>
-              <p>
-                Partner-seeking
-                <br />
-                <br />
-                Gatsby is fast in every way that matters.
-              </p>
+              <p>Partner-seeking for every travelers</p>
             </div>
           </Grid>
           <Grid>
             <div>
               <h2>Flexibility.</h2>
-              <p>
-                Gatsby.js builds the fastest possible website. Instead of
-                waiting to generate pages when requested, pre-build pages and
-                lift them into a global cloud of servers — ready to be delivered
-                instantly to your users wherever they are.
-              </p>
+              <p>Flexible and Affordable</p>
             </div>
             <Art>
               <Img fluid={data.art_fast.childImageSharp.fluid} />
@@ -81,9 +71,8 @@ const About = () => (
             <div>
               <h2>Educate Travelers</h2>
               <p>
-                Enjoy the power of the latest web technologies – React.js ,
-                Webpack , modern JavaScript and CSS and more — all set up and
-                waiting for you to start building.
+                Educate and sharing experience with all-round-the-world
+                travelers via BukaPeta Forum
               </p>
             </div>
           </Grid>
