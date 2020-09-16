@@ -1,7 +1,7 @@
 const theme = {
   font: {
-    primary: `'Prata', serif`,
-    secondary: `'Average', serif`,
+    primary: `'Montserrat', serif`,
+    secondary: `'Roboto', serif`,
   },
   font_size: {
     small: 'font-size: 20px; line-height: 30px',
@@ -18,9 +18,9 @@ const theme = {
     black: {
       lighter: '#ABA8AF',
       light: '#564F62',
-      regular: '#211E26',
+      regular: '#FFFFFF',
     },
-    primary: '#8bd8ed',
+    primary: '#A1242A',
   },
   screen: {
     xs: '575px',

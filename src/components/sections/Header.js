@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
-
+import './Header.css';
 import { Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
@@ -27,23 +27,12 @@ const Header = () => (
         <Container>
           <Grid>
             <Art>
-              <Img fluid={data.art_build.childImageSharp.fluid} />
+              <img
+                style={{ width: '50rem' }}
+                className="image1"
+                src="https://i.imgur.com/tYmvRjT.png"
+              />
             </Art>
-            <Text>
-              <h1>
-                Fast in
-                <br />
-                every way
-                <br />
-                that matters
-              </h1>
-              <br />
-              <p>
-                <StyledExternalLink href="https://github.com/ajayns/gatsby-absurd">
-                  Check out source &nbsp;&#x2794;
-                </StyledExternalLink>
-              </p>
-            </Text>
           </Grid>
         </Container>
       </HeaderWrapper>
